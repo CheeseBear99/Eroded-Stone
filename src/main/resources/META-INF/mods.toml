@@ -1,1 +1,46 @@
 
+#have a nice day if your reading this!
+
+modLoader="javafml" #mandatory
+
+loaderVersion="[36,)"
+
+license="All rights reserved"
+
+[[mods]] #mandatory
+
+modId="esmod" #mandatory
+
+version="1.16.5-1.0.0" #mandatory
+
+displayName="Eroded Stone Mod" #mandatory
+
+logoFile="logo.png" #optional
+
+credits="Thanks to Mojang for making Minecraft :)" #optional
+
+authors="CheeseBear99" #optional
+
+description='''
+A mod which adds a new type of stone called Eroded Stone! It's perfect for detailing, texturing, and for building!
+'''
+
+[[dependencies.examplemod]] #optional
+  
+    modId="forge" #mandatory
+  
+    mandatory=true #mandatory
+ 
+    versionRange="[36,)" #mandatory
+  
+    ordering="NONE"
+
+    side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
