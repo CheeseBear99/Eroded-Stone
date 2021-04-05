@@ -1,0 +1,1 @@
+This is a simple mod I made that adds a new type of stone which can be crafted from stone and andesite.
